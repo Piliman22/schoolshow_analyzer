@@ -1,16 +1,25 @@
 {
-  "name": "schoolshow_analyzer",
+  "name": "schoolshow-analyzer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/analyzer.ts",
-    "build": "tsc"
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "ts-node src/analyzer.ts",
+  "build": "tsc",
+  "prepare": "npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Piliman22/schoolshow_analyzer.git"
+  },
   "devDependencies": {
     "@types/node": "^24.8.1",
     "ts-node": "^10.9.2",
