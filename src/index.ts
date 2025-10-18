@@ -1,3 +1,4 @@
-import { ChartAnalyzer } from "./analyzer";
+export { ChartAnalyzer } from "./analyzer";
+import { ChartAnalyzer as _ChartAnalyzer } from "./analyzer";
 
-export default ChartAnalyzer;
+export default _ChartAnalyzer;
